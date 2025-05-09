@@ -72,8 +72,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                At SHOOGLE, our mission is to simplify and secure Digital Asset investing for individuals and
-                businesses. You own your keys; we provide expert guidance to make it happen.
+                At SHOOGLE, we shake up digital asset investing. Our mission is to make crypto simple and secure for busy professionals and businesses. You own your keys; we provide the expert guidance to make it happen.
               </p>
             </div>
           </div>
