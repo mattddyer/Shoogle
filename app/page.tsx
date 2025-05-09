@@ -84,7 +84,7 @@ export default function Home() {
                 individual or business to build your own Strategic Digital Asset Reserve.
               </p>
               <p className="text-gray-500">
-                Our team, led by Matt Dyer, a former CEO of the Zilliqa Public Blockchain with firsthand experience in
+                Our team, led by <Link href="https://www.mattdyer.xyz/#about" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Matt Dyer</Link>, a former CEO of the Zilliqa Public Blockchain with firsthand experience in
                 the space, collaborates with trusted platforms to deliver secure, expert-led solutions, empowering you
                 to invest in digital assets with confidence.
               </p>
@@ -99,7 +99,7 @@ export default function Home() {
                   className="rounded-lg object-cover shadow-lg"
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-black/60 text-white p-3 rounded backdrop-blur-sm">
-                  <p className="font-medium">Matt Dyer</p>
+                  <p className="font-medium"><Link href="https://www.mattdyer.xyz/#about" target="_blank" rel="noopener noreferrer" className="hover:underline">Matt Dyer</Link></p>
                   <p className="text-sm text-gray-200">Founder, Former CEO of Zilliqa Blockchain</p>
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="mt-auto">
                   <Link href="https://cal.com/mattdyer/15min" target="_blank" rel="noopener noreferrer">
                     <Button className="w-full bg-primary hover:bg-primary/90 h-12 text-base">
-                      Book a Call with Matt
+                      Book a Call with <Link href="https://www.mattdyer.xyz/#about" target="_blank" rel="noopener noreferrer" className="hover:underline" onClick={(e) => e.stopPropagation()}>Matt</Link>
                     </Button>
                   </Link>
                 </div>
