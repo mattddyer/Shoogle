@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { BookConsultationButton } from "@/components/book-consultation-button"
+import { ClientLink } from "@/components/ui/link"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -49,24 +50,24 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t">
           <div className="container flex flex-col space-y-3 p-4">
-            <Link href="/" className="text-sm font-medium" onClick={toggleMenu}>
+            <ClientLink href="/" className="text-sm font-medium" onClick={toggleMenu}>
               Home
-            </Link>
-            <Link href="#about" className="text-sm font-medium" onClick={toggleMenu}>
+            </ClientLink>
+            <ClientLink href="#about" className="text-sm font-medium" onClick={toggleMenu}>
               About
-            </Link>
-            <Link href="#services" className="text-sm font-medium" onClick={toggleMenu}>
+            </ClientLink>
+            <ClientLink href="#services" className="text-sm font-medium" onClick={toggleMenu}>
               Services
-            </Link>
-            <Link href="#how-it-works" className="text-sm font-medium" onClick={toggleMenu}>
+            </ClientLink>
+            <ClientLink href="#how-it-works" className="text-sm font-medium" onClick={toggleMenu}>
               How It Works
-            </Link>
-            <Link href="#why-digital-assets" className="text-sm font-medium" onClick={toggleMenu}>
+            </ClientLink>
+            <ClientLink href="#why-digital-assets" className="text-sm font-medium" onClick={toggleMenu}>
               Why Digital Assets
-            </Link>
-            <Link href="#contact" className="text-sm font-medium" onClick={toggleMenu}>
+            </ClientLink>
+            <ClientLink href="#contact" className="text-sm font-medium" onClick={toggleMenu}>
               Contact
-            </Link>
+            </ClientLink>
             <BookConsultationButton className="w-full mt-2">Book Consultation</BookConsultationButton>
           </div>
         </div>
