@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="mt-auto">
                   <Link href="https://cal.com/mattdyer/15min" target="_blank" rel="noopener noreferrer">
                     <Button className="w-full bg-primary hover:bg-primary/90 h-12 text-base">
-                      Book a Call with <Link href="https://www.mattdyer.xyz/#about" target="_blank" rel="noopener noreferrer" className="hover:underline" onClick={(e) => e.stopPropagation()}>Matt</Link>
+                      Book a Call with Matt
                     </Button>
                   </Link>
                 </div>
