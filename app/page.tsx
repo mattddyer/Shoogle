@@ -100,7 +100,7 @@ export default function Home() {
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-black/60 text-white p-3 rounded backdrop-blur-sm">
                   <p className="font-medium"><Link href="https://www.mattdyer.xyz/#about" target="_blank" rel="noopener noreferrer" className="hover:underline">Matt Dyer</Link></p>
-                  <p className="text-sm text-gray-200">Founder, Former CEO of Zilliqa Blockchain</p>
+                  <p className="text-sm text-gray-200">Founder, Former CEO of the Zilliqa Blockchain</p>
                 </div>
               </div>
             </div>
