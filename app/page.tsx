@@ -139,7 +139,7 @@ export default function Home() {
               <div className="bg-white rounded-lg border shadow-sm p-6 h-full flex flex-col">
                 <h3 className="text-xl font-bold mb-4">Schedule a Call</h3>
                 <p className="text-gray-500 mb-4">
-                  Book a 15-minute no obligation call to discuss how we can help you build your digital asset reserve.
+                  Book a 30-minute no obligation call to discuss how we can help you build your digital asset reserve.
                 </p>
                 <div className="flex items-center space-x-3 text-gray-500 mb-2">
                   <Calendar className="h-5 w-5 text-primary" />
@@ -147,7 +147,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center space-x-3 text-gray-500 mb-6">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>15-minute consultation</span>
+                  <span>30-minute consultation</span>
                 </div>
                 <div className="mt-auto">
                   <Link href="https://cal.com/mattdyer/15min" target="_blank" rel="noopener noreferrer">

@@ -12,7 +12,7 @@ export function BookConsultationButton({
   ...props
 }: BookConsultationButtonProps) {
   return (
-    <Link href="https://cal.com/mattdyer/15min" target="_blank" rel="noopener noreferrer">
+    <Link href="https://cal.com/mattdyer/30min" target="_blank" rel="noopener noreferrer">
       <Button className={className} {...props}>
         {text}
       </Button>
